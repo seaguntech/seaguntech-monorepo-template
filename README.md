@@ -1,4 +1,4 @@
-<img width="2048" height="512" alt="background-readme" src="https://github.com/user-attachments/assets/7efea7ea-b79e-43f3-8bcc-7ddddd943366" />
+<img width="2048" height="512" alt="background-readme-web" src="https://github.com/user-attachments/assets/5117a9d6-7e53-4fd0-9c68-89949716c4a5" />
 
 # Seaguntech Monorepo Template
 
