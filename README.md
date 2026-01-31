@@ -1,3 +1,5 @@
+<img width="2048" height="512" alt="background-readme" src="https://github.com/user-attachments/assets/7efea7ea-b79e-43f3-8bcc-7ddddd943366" />
+
 # Seaguntech Monorepo Template
 
 Seaguntech Turborepo + pnpm workspace template for product teams and OSS.
