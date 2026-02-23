@@ -37,6 +37,8 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build && changeset publish",
+    "init:template": "node scripts/init-template.mjs",
+    "init:template:dry-run": "node scripts/init-template.mjs --dry-run",
     "prepare": "husky"
   },
   "devDependencies": {

@@ -21,6 +21,7 @@ Seaguntech Turborepo + pnpm workspace template for product teams and OSS.
 
 ```bash
 pnpm install
+pnpm init:template
 pnpm dev
 ```
 
@@ -33,12 +34,17 @@ pnpm dev:storybook
 
 ## Customize this template
 
-After cloning:
+After cloning or forking:
 
-1. Update repo name and package scope in `package.json` files.
-2. Replace `@seaguntech/*` with your org scope if needed.
-3. Update `SECURITY.md` and `CODE_OF_CONDUCT.md` contact emails.
-4. Update `README.md` branding and add project-specific details.
+```bash
+pnpm init:template
+```
+
+The init script updates package scope, repo links, package names, and maintainer
+contact email across the template.
+
+- Preview only: `pnpm init:template:dry-run`
+- Re-run after first initialization: `pnpm init:template -- --force`
 
 ## Workspace layout
 

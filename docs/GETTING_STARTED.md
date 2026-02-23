@@ -9,6 +9,7 @@
 
 ```bash
 pnpm install
+pnpm init:template
 ```
 
 ## Develop
@@ -24,10 +25,22 @@ pnpm dev:web
 pnpm dev:storybook
 ```
 
-## Template setup (optional)
+## Template setup
 
-If you are using this repo as a starting point:
+If you are using this repository as a template, run:
 
-1. Update repo name and package scope in `package.json` files.
-2. Replace contact emails in `SECURITY.md` and `CODE_OF_CONDUCT.md`.
-3. Update `README.md` with your project details.
+```bash
+pnpm init:template
+```
+
+Useful flags:
+
+- `pnpm init:template:dry-run` to preview changes.
+- `pnpm init:template -- --yes --scope myorg --project-name my-monorepo --owner myorg --repo my-monorepo --email oss@myorg.com` for non-interactive setup.
+- `pnpm init:template -- --force` to run setup again after initialization.
+
+After setup, verify:
+
+```bash
+pnpm lint && pnpm check-types && pnpm build
+```
