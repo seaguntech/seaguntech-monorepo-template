@@ -4,16 +4,14 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build -o dist",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --max-warnings 0 --fix",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "check-types": "tsc --noEmit",
     "preview": "vite preview",
-    "storybook:dev": "storybook dev -p 6006",
-    "storybook:build": "storybook build",
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {

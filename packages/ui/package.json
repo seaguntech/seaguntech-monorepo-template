@@ -40,7 +40,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
+    "dev": "tsup",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --max-warnings 0 --fix",
     "format": "prettier --check .",
@@ -50,6 +50,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@radix-ui/react-label": "catalog:radix-ui",
     "@radix-ui/react-slot": "catalog:radix-ui",
     "@seaguntech/design-system": "workspace:*",
     "class-variance-authority": "catalog:web-ui",

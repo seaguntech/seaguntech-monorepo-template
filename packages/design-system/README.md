@@ -62,8 +62,14 @@ export { default } from '@seaguntech/design-system/postcss-config';
 
 - Prefer semantic tokens over raw scale values
 - Keep `@utility` blocks top-level (Tailwind v4 disallows nesting)
+- Avoid custom utility names that collide with Tailwind color utilities (`text-primary`, `bg-primary`, etc.)
 - Update both themes when you add new semantic tokens
 - Import the globals only once per app/library
+
+## Notes for apps in this monorepo
+
+- Use `@source` in each app CSS entry to include monorepo packages in class scanning.
+- Keep the design-system source of truth in CSS (`@theme`, `@utility`, `@custom-variant`).
 
 ## Migration (from @seaguntech/tailwind-config)
 

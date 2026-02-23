@@ -1,5 +1,8 @@
 @import '@seaguntech/design-system';
 
+@source '../**/*.{ts,tsx}';
+@source '../../../../packages/ui/src/**/*.{ts,tsx}';
+
 /*
  * Web App Global Styles
  * Import the design system and add app-specific styles

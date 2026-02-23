@@ -50,4 +50,5 @@
 
   --color-input: oklch(0.28 0.015 250);
   --color-ring: var(--color-brand-400);
+  --color-ring-offset: oklch(0.14 0.008 250);
 }

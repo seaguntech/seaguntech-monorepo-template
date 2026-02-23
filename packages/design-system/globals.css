@@ -151,25 +151,84 @@
   background-color: var(--color-surface-sunken);
 }
 
-/* Text utilities */
-@utility text-primary {
+/* Text foreground utilities (avoid colliding with Tailwind color utilities like text-primary) */
+@utility text-fg-primary {
   color: var(--color-text-primary);
 }
 
-@utility text-secondary {
+@utility text-fg-secondary {
   color: var(--color-text-secondary);
 }
 
-@utility text-tertiary {
+@utility text-fg-tertiary {
   color: var(--color-text-tertiary);
 }
 
-@utility text-disabled {
+@utility text-fg-disabled {
   color: var(--color-text-disabled);
 }
 
-@utility text-inverse {
+@utility text-fg-inverse {
   color: var(--color-text-inverse);
+}
+
+/* Semantic typography utilities */
+@utility text-display-lg {
+  font-size: var(--font-size-6xl);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@utility text-display-md {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@utility text-heading-lg {
+  font-size: var(--font-size-3xl);
+  line-height: var(--line-height-snug);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+@utility text-heading-md {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-snug);
+  font-weight: var(--font-weight-semibold);
+}
+
+@utility text-heading-sm {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-snug);
+  font-weight: var(--font-weight-medium);
+}
+
+@utility text-body-lg {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  font-weight: var(--font-weight-normal);
+}
+
+@utility text-body-md {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-normal);
+}
+
+@utility text-body-sm {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-normal);
+}
+
+@utility text-caption {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-normal);
+  letter-spacing: var(--letter-spacing-wide);
+  font-weight: var(--font-weight-medium);
 }
 
 /* Border utilities */

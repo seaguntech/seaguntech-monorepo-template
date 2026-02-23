@@ -107,6 +107,9 @@
   --color-primary: var(--color-brand-600);
   --color-primary-hover: var(--color-brand-700);
   --color-primary-active: var(--color-brand-800);
+  --color-primary-foreground: oklch(0.99 0 0);
+
+  --color-ring-offset: oklch(1 0 0);
 
   /* ===== TYPOGRAPHY SYSTEM ===== */
 
@@ -292,6 +295,77 @@
   --z-tooltip: 700;
   --z-toast: 800;
   --z-max: 9999;
+
+  /* ===== ANIMATIONS ===== */
+
+  --animate-fade-in: fade-in 0.2s ease-out;
+  --animate-fade-out: fade-out 0.2s ease-in;
+  --animate-slide-in-from-top: slide-in-from-top 0.3s ease-out;
+  --animate-slide-out-to-top: slide-out-to-top 0.3s ease-in;
+  --animate-scale-in: scale-in 0.2s ease-out;
+  --animate-scale-out: scale-out 0.15s ease-in;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes slide-in-from-top {
+    from {
+      transform: translateY(-0.5rem);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-out-to-top {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-0.5rem);
+      opacity: 0;
+    }
+  }
+
+  @keyframes scale-in {
+    from {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes scale-out {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+  }
 }
 
 /* ===== CUSTOM VARIANTS ===== */

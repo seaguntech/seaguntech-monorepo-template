@@ -39,6 +39,7 @@ catalogs:
   prettier-plugins:
     '@trivago/prettier-plugin-sort-imports': ^6.0.0
   radix-ui:
+    '@radix-ui/react-label': 2.1.7
     '@radix-ui/react-slot': 1.2.4
   react19:
     '@types/react': ^19.1.0

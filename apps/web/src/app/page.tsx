@@ -1,3 +1,4 @@
+import { ThemeToggle } from '@/components/theme-toggle';
 import { Button } from '@seaguntech/ui';
 import { formatDate } from '@seaguntech/utils';
 
@@ -18,6 +19,9 @@ export default function Home() {
         </p>
         <div>
           <Button size="lg">Get started</Button>
+        </div>
+        <div>
+          <ThemeToggle />
         </div>
       </main>
     </div>

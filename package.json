@@ -20,11 +20,11 @@
   "scripts": {
     "dev": "turbo watch dev",
     "dev:web": "turbo watch dev --filter @seaguntech/web",
-    "dev:storybook": "turbo run storybook:dev --filter @seaguntech/storybook",
+    "dev:storybook": "turbo watch dev --filter @seaguntech/storybook",
     "build": "turbo run build",
     "build:apps": "turbo run build --filter=\"./apps/*\"",
     "build:packages": "turbo run build --filter=\"./packages/*\"",
-    "build:storybook": "turbo run storybook:build --filter @seaguntech/storybook",
+    "build:storybook": "turbo run build --filter @seaguntech/storybook",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "format": "turbo run format",
