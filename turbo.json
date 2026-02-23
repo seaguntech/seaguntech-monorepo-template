@@ -47,15 +47,6 @@
       "dependsOn": ["^build"],
       "outputs": ["coverage/**"],
       "inputs": ["$TURBO_DEFAULT$", ".env", ".env.*"]
-    },
-    "storybook:dev": {
-      "dependsOn": ["^build"],
-      "cache": false,
-      "persistent": true
-    },
-    "storybook:build": {
-      "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
     }
   }
 }

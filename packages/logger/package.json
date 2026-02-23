@@ -46,7 +46,8 @@
     "format:fix": "prettier --write .",
     "check-types": "tsc --noEmit",
     "clean": "rm -rf dist node_modules",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "pino": "catalog:logger-libs",

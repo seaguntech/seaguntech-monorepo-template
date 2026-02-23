@@ -140,9 +140,11 @@ Shared config: `@seaguntech/typescript-config/base.json`.
 
 ### React / UI Patterns
 
-- Use `React.forwardRef` when exporting components that pass refs.
+- Follow `shadcn/ui` patterns for UI primitives in `packages/ui`.
+- Prefer Radix primitives (e.g. label, slot) when a matching primitive exists.
 - Use `class-variance-authority` and `cn` helper for class composition.
 - Tailwind is the preferred styling approach in UI packages and apps.
+- For ref handling, follow the existing component pattern in the package (React 19 ref-as-prop is acceptable for new primitives).
 
 ### Testing
 
