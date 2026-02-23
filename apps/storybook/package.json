@@ -32,6 +32,7 @@
     "@vitejs/plugin-react": "catalog:vite-ecosystem",
     "@storybook/addon-a11y": "catalog:storybook",
     "@storybook/addon-essentials": "catalog:storybook",
+    "@storybook/react": "catalog:storybook",
     "@storybook/react-vite": "catalog:storybook",
     "eslint": "catalog:",
     "postcss": "catalog:web-ui",

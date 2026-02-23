@@ -46,12 +46,12 @@ catalogs:
     react: 19.2.3
     react-dom: 19.2.3
   storybook:
-    '@storybook/addon-a11y': ^8.5.3
-    '@storybook/addon-essentials': ^8.5.3
-    '@storybook/blocks': ^8.5.3
-    '@storybook/react': ^8.5.3
-    '@storybook/react-vite': ^8.5.3
-    storybook: ^8.5.3
+    '@storybook/addon-a11y': 8.6.15
+    '@storybook/addon-essentials': 8.6.15
+    '@storybook/blocks': 8.6.15
+    '@storybook/react': 8.6.15
+    '@storybook/react-vite': 8.6.15
+    storybook: 8.6.15
   testing:
     '@testing-library/jest-dom': ^6.9.1
     '@testing-library/react': ^16.0.0

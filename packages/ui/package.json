@@ -75,6 +75,7 @@
     "eslint": "catalog:",
     "postcss": "catalog:web-ui",
     "prettier": "catalog:",
+    "storybook": "catalog:storybook",
     "tailwindcss": "catalog:web-ui",
     "tsup": "catalog:",
     "typescript": "catalog:",
