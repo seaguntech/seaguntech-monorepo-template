@@ -6,6 +6,9 @@ export default mergeConfig(
   defineConfig({
     test: {
       include: ['tests/**/*.{test,spec}.{ts,tsx}'],
+      coverage: {
+        all: false,
+      },
     },
   }),
 );
