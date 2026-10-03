@@ -54,7 +54,7 @@ contact email across the template.
 - `packages/utils` - shared utilities
 - `packages/logger` - logging utilities
 - `packages/design-system` - Tailwind v4 design system
-- `configs/` - shared ESLint / Prettier / TS / Vitest configs
+- `packages/{eslint,prettier,typescript,vitest}-config` - shared ESLint / Prettier / TS / Vitest configs
 - `docs/` - project documentation
 
 ## Common scripts

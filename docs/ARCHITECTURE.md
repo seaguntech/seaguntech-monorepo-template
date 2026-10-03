@@ -30,10 +30,10 @@ This Seaguntech monorepo template provides:
 
 ## Tooling
 
-- ESLint 9 flat config in `configs/eslint-config`
-- Prettier config in `configs/prettier-config`
-- TS config in `configs/typescript-config`
-- Vitest config in `configs/vitest-config`
+- ESLint 9 flat config in `packages/eslint-config`
+- Prettier config in `packages/prettier-config`
+- TS config in `packages/typescript-config`
+- Vitest config in `packages/vitest-config`
 - Design system tokens/themes in `packages/design-system`
 
 ## Build pipeline

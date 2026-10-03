@@ -34,7 +34,7 @@ pnpm install
 
 - `apps/` - application packages
 - `packages/` - shared libraries
-- `configs/` - shared tooling configs
+- `packages/{eslint,prettier,typescript,vitest}-config/` - shared tooling configs
 
 ## Target a single package
 

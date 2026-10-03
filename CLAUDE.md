@@ -8,7 +8,7 @@ This is a **Turborepo + pnpm workspace** monorepo with the following structure:
 
 - **apps/** - Applications (Next.js, Storybook)
 - **packages/** - Shared libraries (ui, logger, utils, design system)
-- **configs/** - Shared configurations (eslint, prettier, typescript, vitest)
+- **packages/{eslint,prettier,typescript,vitest}-config/** - Shared configurations (eslint, prettier, typescript, vitest)
 
 ### Key Dependencies
 
@@ -149,7 +149,7 @@ pnpm add -D <package> --filter @seaguntech/web
 
 ## Configuration Packages
 
-Shared configs in `configs/` are consumed by apps and packages:
+Shared configs in `packages/` are consumed by apps and packages:
 
 - **eslint-config**: Provides base, next, react, react-native, and storybook configs
 - **prettier-config**: Provides base and react-native configs

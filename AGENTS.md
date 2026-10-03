@@ -17,7 +17,7 @@ the single reference for commands and style expectations when working here.
 - `packages/ui` - shared UI components
 - `packages/utils` - shared utilities
 - `packages/logger` - logging utilities
-- `configs/` - shared ESLint / Prettier / TS / Vitest configs
+- `packages/{eslint,prettier,typescript,vitest}-config` - shared ESLint / Prettier / TS / Vitest configs
 
 ## Build / Lint / Test Commands
 
