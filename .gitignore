@@ -28,6 +28,9 @@ playwright/.cache/
 # Turbo
 .turbo
 
+# Local Git worktrees
+.worktrees/
+
 # Vercel
 .vercel
 
